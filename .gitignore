@@ -1,0 +1,88 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build Outputs
+.next/
+out/
+dist/
+build/
+coverage/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# =========================
+# React Native / Expo
+# =========================
+.expo/
+.expo-shared/
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# Microsoft Office Temp Files
+~$*
+
+# =========================
+# Data Science
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Large generated artifacts
+mlruns/
+wandb/
+
+# =========================
+# Misc
+# =========================
+.cache/
